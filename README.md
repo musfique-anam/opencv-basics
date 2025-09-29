@@ -87,9 +87,11 @@ Run all cells to see code, notes, and outputs inline.
 - Resize changes dimensions without affecting colors.
 - Crop slices the image matrix using [y1:y2, x1:x2].
 - Rotate uses cv2.getRotationMatrix2D and cv2.warpAffine.
-- Flip mirrors the image horizontally or vertically; outputs are saved separately.   
+- Flip mirrors the image horizontally or vertically; outputs are saved separately.  
 <br>
+
 ---
+
 <br>
 This repository documents my personal learnings with OpenCV basics.  
 All notebooks and output images are provided for reference and further experimentation.
