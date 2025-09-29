@@ -33,38 +33,23 @@ It demonstrates reading, writing, displaying images, and performing basic transf
 
 ## 📂 Repository Structure
 
-opencv-basics/
-│
-├── README.md
-├── requirements.txt # dependencies
-├── notebooks/
-│ └── opencv_basics.ipynb # notebook with notes, code, and outputs
-├── images/
-│ └── sample.jpg # input image(s)
-└── results/
-├── resized.jpg
-├── cropped.jpg
-├── rotated.jpg
-├── flip_horizontal.jpg
-└── flip_vertical.jpg
-
-opencv-basics/
-│
-├── images/
-│   └── sample.jpg       # input image
-│
-├── notebooks/
-│   └── opencv_basics.ipynb
-│
-│── results/
-│   ├── resized.jpg
-│   ├── cropped.jpg
-│   ├── rotated.jpg
-│   ├── flip_horizontal.jpg
-│   └── flip_vertical.jpg
-│
-├── README.md
-└── requirements.txt
+opencv-basics/   
+│   
+├── images/  
+│   └── sample.jpg  # input image  
+│  
+├── notebooks/  
+│   └── opencv_basics.ipynb  
+│  
+│── results/  
+│   ├── resized.jpg  
+│   ├── cropped.jpg  
+│   ├── rotated.jpg  
+│   ├── flip_horizontal.jpg  
+│   └── flip_vertical.jpg  
+│  
+├── README.md  
+└── requirements.txt  
 
 ---
 
@@ -97,9 +82,14 @@ Run all cells to see code, notes, and outputs inline.
 |---------------|---------|---------|---------|----------------|---------------|
 | ![Original Copy](images/sample.jpg) | ![Resized](results/resized.jpg) | ![Cropped](results/cropped.jpg) | ![Rotated](results/rotated.jpg) | ![Flip H](results/flip_horizontal.jpg) | ![Flip V](results/flip_vertical.jpg) |
 
-📌 Notes / Observations
+📌 Notes
 - Images in OpenCV are read in BGR format, so we convert to RGB for matplotlib.
 - Resize changes dimensions without affecting colors.
 - Crop slices the image matrix using [y1:y2, x1:x2].
 - Rotate uses cv2.getRotationMatrix2D and cv2.warpAffine.
-- Flip mirrors the image horizontally or vertically; outputs are saved separately.
+- Flip mirrors the image horizontally or vertically; outputs are saved separately.   
+<br>
+---
+<br>
+This repository documents my personal learnings with OpenCV basics.  
+All notebooks and output images are provided for reference and further experimentation.
